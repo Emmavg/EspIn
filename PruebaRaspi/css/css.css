@@ -1,0 +1,33 @@
+
+body{
+    background-color: #9FFFEE;
+    text-align: justify;
+    }
+ul{
+	padding-left:100px;
+}
+p.correcto{
+	background-color:#78FF5C;
+	color: #178400;
+	padding:10px;
+}
+span.errorspan{
+	background-color:#FA886F;
+	color: #971B00;
+	padding:10px;
+}
+section{
+	width:500px;
+	margin:40px auto;
+	padding:20px;
+	border-radius:10px;
+	background-color:#8181F7;
+	box-shadow:5px 5px 5px #0404B4;
+}
+form#redes input{
+	margin-right:10px;
+}
+form#redes label{
+	display:inline-block;
+	width:140px;
+}
