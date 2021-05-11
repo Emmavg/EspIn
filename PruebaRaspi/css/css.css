@@ -11,10 +11,16 @@ p.correcto{
 	color: #178400;
 	padding:10px;
 }
-span.errorspan{
+span.incorrecto{
 	background-color:#FA886F;
 	color: #971B00;
 	padding:10px;
+	border-radius:10px;
+}
+a.x{
+	text-decoration:none;
+	color: #971B00;
+	
 }
 section{
 	width:500px;

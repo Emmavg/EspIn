@@ -41,7 +41,7 @@
               		        header("location:webs/menu.php");
               		    }
               		    else {
-              		        echo "<br><br><p><span class='errorspan'>Usuario no reconocido.  </span></p>";
+              		        echo "<br><br><span class='incorrecto'>Usuario no reconocido  <a class='x' href='login.php'> x</a></span>";
               		    };
               		};
           		?>

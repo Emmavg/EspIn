@@ -28,16 +28,14 @@ $pass="true";
  	
 	<body class="text-center">
     	<div class="form-signin">
-          		<h1 id="1" class="h3 mb-3 font-weight-normal">Menú</h1><br>
+          		<h1 id="1" class="h3 mb-3 font-weight-normal">Elige una opción</h1><br>
           		<!-- Si es la primera vez que entras te lleva a la guía, sino accedes directamente al menú -->
           		<?php
-              		echo '<a class="btn btn-lg btn-primary btn-block" href="config.php">Configuración</a><br>';
-              		echo '<a class="btn btn-lg btn-primary btn-block" value"ejec">Ejecutar</a>';
-              		
-              		if (isset($_REQUEST["ejec"])) {
-              		    exec("cd /home/pi/MagicMirror");
-              		    exec("npm run start");
-              		}
+          		    echo '<a class="btn btn-lg btn-primary btn-block" href="config.php">Cambiar red WiFi</a><br>';
+              		echo '<a class="btn btn-lg btn-primary btn-block" href="config.php">Registrar huella</a><br>';
+              		echo '<a class="btn btn-lg btn-primary btn-block" href="config.php">Comprobar huella</a><br>';
+              		echo '<a class="btn btn-lg btn-primary btn-block" href="#">Borrar huella</a>';
+              		echo '<br><br><a class="btn btn-lg btn-primary btn-block" href="menu.php"><--</a>';
           		?>
           		<p class="mt-5 mb-3 text-muted">&copy; EspIn2021</p>
         </div>
